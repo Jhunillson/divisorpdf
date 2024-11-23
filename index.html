@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisor de PDF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" >
+        <h1>Divisor de Paginas PDF </h1>
+        <label for="fileInput"> <div class="upload-area" id="uploadArea">
+            <p>Arraste e Solte seu pdf aqui ou busque no seu dispositivo <label for="fileInput">browse</label></p>
+            <input type="file" id="fileInput" accept="application/pdf" hidden>
+        </div></label>
+        <div class="sidebar" id="sidebar"></div>
+        <footer>
+            <p>Divisor de PDF App &copy; 2024 | Junilson Kaputo</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #f4f4f9;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.upload-area {
+    border: 2px dashed #aaa;
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.upload-area p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.upload-area label {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sidebar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-container canvas {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 8px 15px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background: #0056b3;
+}
